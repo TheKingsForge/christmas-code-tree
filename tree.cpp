@@ -17,14 +17,14 @@
 					  string songOne = "Mary Did You Know?";
 								int loopIndex = 0;
 				   while (getline (songOneLyrics, lyricsText)) {
-				 std::cout << lyricsText << std::endl; sleep(500);}
+				 std::cout << lyricsText << std::endl; sleep(1);}
 				   while (loopIndex < ornamentsCount) { loopIndex++;
 				std::cout <<  "Ornaments Hung: " + to_string(loopIndex) 
 								<< std::endl;} 
 			   ifstream songTwoLyrics("God Rest Ye Merry Gentlemen.txt");
 		  string songNumberTwo = "God Rest Ye, Merry Gentlemen"; string lyrTxt2 
 	 = ""; while (getline (songTwoLyrics, lyrTxt2)) {std::cout << lyrTxt2 << std::endl; 
-   sleep(500);} auto hangTheLights= [] (int numLights, string colorLights) { std::cout << 
+   sleep(1);} auto hangTheLights= [] (int numLights, string colorLights) { std::cout << 
 	 "Hanging " + colorLights + " lights on the tree!" << std::endl; std::cout << "" + 
 							to_string(numLights) + " "
 + colorLights + " lights hung!" << std::endl; std::cout << "Merry Christmas!" << std::endl;};
